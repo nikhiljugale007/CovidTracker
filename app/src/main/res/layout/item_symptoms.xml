@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:padding="10dp">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_bag"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/cough"
+            android:tint="@color/colorWhite"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/textSymptomms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dry Cough"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:fontFamily="@font/graphiksemibold"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/txtSymptomsDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="skdnlsjdjj lxgkjldfjg  dfjglkfjg lksjkgdlfkj sdjflskdjf lkjfjslkdfj sldlfjslfkdj lsdkfkjsldkfkj sdlkjfdlskfj "
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorGray"
+            android:fontFamily="@font/graphikregular"
+            android:textSize="15sp"
+            />
+    </LinearLayout>
+</LinearLayout>
